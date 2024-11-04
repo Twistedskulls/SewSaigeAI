@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+  body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #8b5e3c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d3a87c;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .about, .services, .testimonials, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #8b5e3c;
+        }
+        footer {
+            background-color: #8b5e3c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
